@@ -1,12 +1,12 @@
 <template>
     <div class="theme-container">
         <div class="theme-default-content">
-            <h1>خطای 404</h1>
+            <h1>خطأ 404</h1>
 
             <blockquote>{{ getMsg() }}</blockquote>
 
             <RouterLink to="/">
-                بازگشت به صفحه اول.
+                العودة للصفحة الرئيسية
             </RouterLink>
         </div>
     </div>
@@ -14,10 +14,7 @@
 
 <script>
     const msgs = [
-        `اینجا خبری نیست که نیست!`,
-        `متاسفانه صفحه مورد نظر یافت نشد :(`,
-        `صفحه‌ای که دنبال آن بودید پیدا نشد :(`,
-        `متاسفانه، صفحه‌ مورد نظر شما یافت نشد :(`,
+        `الصفحة المطلوبة غير موجودة`,
     ]
 
     export default {
